@@ -1,0 +1,1 @@
+export { default } from "file:///Users/yanghilton/ETF_calculator/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs"
