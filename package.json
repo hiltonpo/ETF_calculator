@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "nuxt generate && gh-pages -d .output/public"
+    "deploy": "nuxt generate && touch .output/public/.nojekyll && gh-pages -d .output/public --dotfiles"
   },
   "dependencies": {
     "@nuxt/ui": "^2.18.4",
